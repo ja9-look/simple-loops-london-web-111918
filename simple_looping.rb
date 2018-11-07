@@ -8,6 +8,7 @@ def loop_iterator(number_of_times)
     breaks if number_of_times == 7
   end
 end
+
 def times_iterator(number_of_times)
   7.times do
   puts "Welcome to Flatiron School's Web Development Course!"
