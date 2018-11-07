@@ -19,10 +19,11 @@ end
 def while_iterator(number_of_times)
   # code your solution here using the "while" keyword
   # hint: user a counter to tell the while loop when to stop!
-  number_of_times = 0 
-  while number_of_times < 7
+  counter = 0 
+  while counter < number_of_times
   puts "Welcome to Flatiron School's Web Development Course!"
-  number_of_times += 1 
+  counter += 1
+  break if counter >= number_of_times
   end
   puts "STOP"
 end
