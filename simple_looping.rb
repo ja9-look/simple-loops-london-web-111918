@@ -25,7 +25,6 @@ def while_iterator(number_of_times)
   counter += 1
   break if counter >= number_of_times
   end
-  puts "STOP"
 end
 
 def until_iterator(number_of_times)
