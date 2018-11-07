@@ -2,9 +2,10 @@
 
 def loop_iterator(number_of_times)
   loop do
-    puts "Welcome to Flatiron School's Web Development Course!"
     number_of_times += 1 
-    break if number_of_times >=7
+    puts "Welcome to Flatiron School's Web Development Course!"
+    if number_of_times >=7
+    break 
   end
 end
 
